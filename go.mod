@@ -1,4 +1,4 @@
-module github.com/bakks/butterfish
+module github.com/JamieLittle16/butterfish-deepseek
 
 go 1.23
 
