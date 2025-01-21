@@ -15,6 +15,7 @@ import (
 
 // See https://platform.openai.com/docs/models/overview
 var MODEL_TO_NUM_TOKENS = map[string]int{
+	"deepseek-chat":               128000,
 	"gpt-4o":                      128000,
 	"gpt-4o-2024-05-13":           128000,
 	"gpt-4":                       8192,
