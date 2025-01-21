@@ -57,6 +57,7 @@ var MODEL_TO_NUM_TOKENS = map[string]int{
 // these token numbers come from
 // https://github.com/pkoukk/tiktoken-go#counting-tokens-for-chat-api-calls
 var MODEL_TO_TOKENS_PER_MESSAGE = map[string]int{
+	"deepseek-chat":          3,
 	"gpt-4o":                 3,
 	"gpt-4o-2024-05-13":      3,
 	"gpt-4":                  3,
